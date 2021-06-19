@@ -1,0 +1,39 @@
+﻿/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-group {
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  line-height: 60px;
+}
+
+.btn-group button {
+    padding:10px;
+    display:block;
+    width: 120%;
+    background-color: #e6ccff;
+    font-size:15px;
+    font-family: "Roboto", "sans-serif";
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group button:hover {
+  background-color: #dab3ff;
+}
